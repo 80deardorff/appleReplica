@@ -1,0 +1,75 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  user-select: none;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 991px;
+  padding: 0 22px;
+  margin: 0 100px;
+  align-content: center;
+}
+
+li {
+  height: 44px;
+  padding: 0 10px;
+  display: inline-block;
+  line-height: 44px;
+}
+
+.apple-logo {
+  font-size: 1.3em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lucida Sans Unicode", "Helvetica";
+  font-size: 1em;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+section {
+  padding-top: 44px;
+}
+
+div.iphone-text {
+  padding: 88px 0;
+  text-align: center;
+}
+
+div.iphone-image {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Lucida Sans Unicode", "Helvetica";
+  color: black;
+  letter-spacing: -2px;
+}
+
+h1 {
+  font-size: 56px
+}
+
+h2 {
+  font-size: 27px;
+}
+
+img {
+  width: 800px;
+}
